@@ -20,6 +20,8 @@ public class AddUser extends HttpServlet {
         String userName = request.getParameter("username");
         String password = request.getParameter("password");
         System.out.print("用户名:"+userName+"  密码："+password);
+        System.out.println("用户名:"+userName);
+        System.out.println("密码："+password);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
